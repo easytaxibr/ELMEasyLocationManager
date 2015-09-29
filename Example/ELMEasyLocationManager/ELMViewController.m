@@ -36,7 +36,6 @@
             self.lngLabel.text = [NSString stringWithFormat:@"%@", @(location.coordinate.longitude)];
         });
     }];
-
 }
 
 @end
