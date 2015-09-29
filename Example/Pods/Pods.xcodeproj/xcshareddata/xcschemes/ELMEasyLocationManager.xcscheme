@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8C701263B330955FF4F76CB4"
+               BlueprintIdentifier = "887A742DFB7D1E35B809E1AD"
                BuildableName = "ELMEasyLocationManager.framework"
                BlueprintName = "ELMEasyLocationManager"
                ReferencedContainer = "container:Pods.xcodeproj">

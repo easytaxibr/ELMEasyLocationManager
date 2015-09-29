@@ -7,8 +7,11 @@
 //
 
 #import "ELMViewController.h"
-
+#import "ELMEasyLocationManager.h"
 @interface ELMViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *latLabel;
+@property (weak, nonatomic) IBOutlet UILabel *lngLabel;
 
 @end
 
@@ -24,6 +27,16 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)currentPositionButtonPressed:(id)sender {
+    [[ELMEasyLocationManager sharedManager] geolocationWithGPS:^(CLLocation *location) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            self.latLabel.text = [NSString stringWithFormat:@"%@", @(location.coordinate.latitude)];
+            self.lngLabel.text = [NSString stringWithFormat:@"%@", @(location.coordinate.longitude)];
+        });
+    }];
+
 }
 
 @end
