@@ -1,0 +1,6 @@
+framework module ELMEasyLocationManager {
+  umbrella header "ELMEasyLocationManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,24 @@
+PODS:
+  - ELMEasyLocationManager (0.1.0)
+  - FBSnapshotTestCase (2.0.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.4)
+  - FBSnapshotTestCase/Core (2.0.4)
+  - FBSnapshotTestCase/SwiftSupport (2.0.4):
+    - FBSnapshotTestCase/Core
+  - Kiwi (2.4.0)
+
+DEPENDENCIES:
+  - ELMEasyLocationManager (from `../`)
+  - FBSnapshotTestCase
+  - Kiwi
+
+EXTERNAL SOURCES:
+  ELMEasyLocationManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ELMEasyLocationManager: 80b82ba08386b5a15ab4dcaad99699362efbb580
+  FBSnapshotTestCase: d94cf34841c9e77390e29009e8e2713479d48753
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+
+COCOAPODS: 0.38.2
