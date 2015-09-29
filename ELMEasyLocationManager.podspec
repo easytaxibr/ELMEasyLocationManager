@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ELMEasyLocationManager"
+  s.homepage         = "https://github.com/easytaxibr/ELMEasyLocationManager"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Paulo Mendes" => "paulo.mendes87@gmail.com" }
